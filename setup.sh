@@ -3,7 +3,8 @@ mkdir -p ~/.vim/autoload ~/.vim/bundle && curl -LSso ~/.vim/autoload/pathogen.vi
 curl -fLo ~/.vimrc https://raw.githubusercontent.com/alex-w-k/quick-start/master/.vimrc
 curl https://raw.githubusercontent.com/alex-w-k/quick-start/master/.bashrc >> ~/.bashrc
 mkdir -p ~/.vim/undo
-sudo yum install -y rust
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+source $HOME/.cargo/env
 git clone https://github.com/ogham/exa.git
 cd exa
 cargo build --release
