@@ -8,4 +8,5 @@ source $HOME/.cargo/env
 git clone https://github.com/ogham/exa.git
 cd exa
 cargo build --release
+sudo mv target/release/exa /usr/local/bin/
 cd ~
