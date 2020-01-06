@@ -10,3 +10,4 @@ cd exa
 cargo build --release
 sudo mv target/release/exa /usr/local/bin/
 cd ~
+source ~/.bashrc
